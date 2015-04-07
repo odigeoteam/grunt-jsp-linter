@@ -8,7 +8,7 @@ This plugin requires Grunt `~0.4.1`
 If you haven't used [Grunt](http://gruntjs.com/) before, be sure to check out the [Getting Started](http://gruntjs.com/getting-started) guide, as it explains how to create a [Gruntfile](http://gruntjs.com/sample-gruntfile) as well as install and use Grunt plugins. Once you're familiar with that process, you may install this plugin with this command:
 
 ```shell
-npm install grunt-jsp-linter --save-dev
+npm install "git+https://bitbucket.org/odigeoteam/grunt-jsp-linter.git" --save-dev
 ```
 
 Once the plugin has been installed, it may be enabled inside your Gruntfile with this line of JavaScript:
@@ -87,7 +87,7 @@ jsplinter: {
 
 There are a set of things that can make the validation fail even if the are theoretically valid.
 
-### < / > symbols 
+### < / > symbols
 
 Try to avoid the use of < or > symbols on the documents. Use HTML entities instead:
 
@@ -116,7 +116,7 @@ This kind of structures are avoidable but if you really need them you can skip t
 <%--IGNOREJSPLINTER--%><c:if test="{condition}">
   <div class"wrap-if-condition">
 </c:if><%--IGNOREJSPLINTER--%>
-    
+
     <div>This is allways shown</div>
 
 <%--IGNOREJSPLINTER--%><c:if test="{condition}">
