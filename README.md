@@ -106,7 +106,7 @@ Structures like the above will make lint to fail:
 </c:if>
     <div>This is allways shown</div>
 <c:if test="{condition}">
-  <div class"wrap-if-condition">
+  </div>
 </c:if>
 ```
 
@@ -120,7 +120,7 @@ This kind of structures are avoidable but if you really need them you can skip t
     <div>This is allways shown</div>
 
 <%--IGNOREJSPLINTER--%><c:if test="{condition}">
-  <div class"wrap-if-condition">
+  </div>
 </c:if><%--IGNOREJSPLINTER--%>
 ```
 
