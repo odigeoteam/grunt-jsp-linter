@@ -3,7 +3,7 @@
 > Lint jsp/html files with htmlhint applying some replacement to the JSP to make it work.
 
 ## Getting Started
-This plugin requires Grunt `~0.4.1`
+This plugin requires Grunt `~0.4`
 
 If you haven't used [Grunt](http://gruntjs.com/) before, be sure to check out the [Getting Started](http://gruntjs.com/getting-started) guide, as it explains how to create a [Gruntfile](http://gruntjs.com/sample-gruntfile) as well as install and use Grunt plugins. Once you're familiar with that process, you may install this plugin with this command:
 
@@ -142,4 +142,5 @@ Althoug the plugins is telling you the line and column where a problem appears, 
 ## Release History
 
  * 2015-04-07   v0.1.0   First release
+ * 2016-08-30   v0.1.1   Dependencies updated
 
