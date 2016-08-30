@@ -1,7 +1,7 @@
 {
   "name": "grunt-jsp-linter",
   "description": "Lint jsp/html files with htmlhint applying some replacement to the JSP to make it work",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "homepage": "https://bitbucket.org/odigeoteam/grunt-jsp-linter",
   "author": {
@@ -20,7 +20,7 @@
     "test": "grunt --force"
   },
   "devDependencies": {
-    "grunt-contrib-jshint": ">=0.1.1",
+    "grunt-contrib-jshint": "1.0.0",
     "grunt": ">=0.4.0"
   },
   "peerDependencies": {
@@ -30,10 +30,9 @@
     "gruntplugin"
   ],
   "dependencies": {
-    "chalk": "^0.4.0",
-    "grunt-contrib-jshint": "^0.11.1",
-    "htmlhint": "0.9.7",
-    "text-table": "^0.2.0",
-    "underscore": "^1.8.3"
+    "chalk": "1.1.3",
+    "htmlhint": "0.9.13",
+    "text-table": "0.2.0",
+    "underscore": "1.8.3"
   }
 }
