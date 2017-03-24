@@ -47,6 +47,7 @@ module.exports = function(grunt) {
                 };
 
                 var fileContents = file.replace(/\$\{[^}]*\}/g, replacer)
+                    .replace(/{{.*?}}/g, replacer)
                     .replace(/<%--IGNOREJSPLINTER--%>[\s\S]*?<%--IGNOREJSPLINTER--%>/g, replacer)
                     .replace(/<%--[\s\S]*?--%>/g, replacer)
                     .replace(/<([^>]*?<[\s\S]*?>[^>]*?)*>/g, subTagReplacer);
